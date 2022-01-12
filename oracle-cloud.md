@@ -16,6 +16,8 @@
 
 `sudo systemctl enable --now snapd.socket`
 
+ `sudo ln -s /var/lib/snapd/snap /snap`
+
 #### Install certbot
 
 `sudo snap install --classic certbot`
